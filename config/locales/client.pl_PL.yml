@@ -9,7 +9,7 @@ pl_PL:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "OpenID Connect Discourse"
+          discourse_orcid_connect: "ORCid Connect Discourse"
       config:
         login:
           sub_pages:
@@ -17,6 +17,6 @@ pl_PL:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "przez OpenID Connect"
-        message: "Uwierzytelnianie przez OpenID Connect"
+        name: "ORCid Connect"
+        title: "przez ORCid Connect"
+        message: "Uwierzytelnianie przez ORCid Connect"

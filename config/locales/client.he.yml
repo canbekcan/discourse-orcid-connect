@@ -9,7 +9,7 @@ he:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
       config:
         login:
           sub_pages:
@@ -17,6 +17,6 @@ he:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "עם OpenID Connect"
-        message: "אימות דרך OpenID Connect"
+        name: "ORCid Connect"
+        title: "עם ORCid Connect"
+        message: "אימות דרך ORCid Connect"

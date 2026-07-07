@@ -6,25 +6,25 @@
 
 pl_PL:
   site_settings:
-    orcid_connect_enabled: Włącz uwierzytelnianie OpenID Connect. Dostosuj tekst interfejsu użytkownika <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>tutaj</a>
-    orcid_connect_discovery_document: "Adres URL dokumentu odkrywczego OpenID Connect. Zwykle znajduje się pod adresem: https://twoja.domena/.well-known/openid-configuration"
-    orcid_connect_client_id: "Identyfikator klienta OpenID Connect"
-    orcid_connect_client_secret: "Klucz tajny klienta OpenID Connect"
+    orcid_connect_enabled: Włącz uwierzytelnianie ORCid Connect. Dostosuj tekst interfejsu użytkownika <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>tutaj</a>
+    orcid_connect_discovery_document: "Adres URL dokumentu odkrywczego ORCid Connect. Zwykle znajduje się pod adresem: https://twoja.domena/.well-known/openid-configuration"
+    orcid_connect_client_id: "Identyfikator klienta ORCid Connect"
+    orcid_connect_client_secret: "Klucz tajny klienta ORCid Connect"
     orcid_connect_authorize_scope: "Zakresy wysyłane do punktu końcowego autoryzacji. Musi obejmować „openid”."
     orcid_connect_rp_initiated_logout: "Przekieruj użytkownika do end_session_endpoint po wylogowaniu. Musi być obsługiwane przez dostawcę tożsamości i uwzględnione w dokumencie odkrycia."
     orcid_connect_rp_initiated_logout_redirect: "(opcjonalnie) Parametr post_logout_redirect_uri, który zostanie przekazany do punktu końcowego wylogowania. Jeśli zostanie podany, musi zostać zarejestrowany u dostawcy tożsamości."
     orcid_connect_rp_initiated_logout_include_client_id: "(opcjonalnie) Dołącz client_id (ustawienie orcid_connect_client_id) jako parametr zapytania do punktu końcowego wylogowania"
     orcid_connect_token_scope: "Zakresy wysyłane podczas żądania punktu końcowego tokena. Oficjalna specyfikacja tego nie wymaga."
     orcid_connect_error_redirects: "Jeżeli wywołanie zwrotne error_reason zawiera pierwszy parametr, użytkownik zostanie przekierowany do adresu URL podanego w drugim parametrze"
-    orcid_connect_allow_association_change: "Zezwalaj użytkownikom na odłączanie i ponowne łączenie swoich kont Discourse z dostawcą OpenID Connect"
+    orcid_connect_allow_association_change: "Zezwalaj użytkownikom na odłączanie i ponowne łączenie swoich kont Discourse z dostawcą ORCid Connect"
     orcid_connect_verbose_logging: "Rejestruj szczegółowe informacje o uwierzytelnianiu OpenID-Connect w `/logs`. Wyłącz tę opcję podczas normalnego użytkowania."
     orcid_connect_authorize_parameters: "Parametry adresu URL, które zostaną uwzględnione w przekierowaniu z /auth/oidc do punktu końcowego autoryzacji dostawcy tożsamości"
-    orcid_connect_overrides_email: "Przy każdym logowaniu zastąp adres e-mail użytkownika wartością orcid-connect. Działa tak samo jak ustawienie {{setting:auth_overrides_email}} , ale jest specyficzne dla logowań OpenID Connect."
+    orcid_connect_overrides_email: "Przy każdym logowaniu zastąp adres e-mail użytkownika wartością orcid-connect. Działa tak samo jak ustawienie {{setting:auth_overrides_email}} , ale jest specyficzne dla logowań ORCid Connect."
     orcid_connect_claims: "Jasno zdefiniuj zgłoszenia do wykorzystania z dostawcami, którzy nie przekazują danych z powrotem na podstawie zakresów. (JSON)"
     orcid_connect_groups_claim: "Nazwa roszczenia w tokenie ORCID, które zawiera grupy użytkownika jako tablicę ciągów znaków. Pozostaw puste, aby wyłączyć synchronizację grup."
     orcid_connect_user_field_mappings: "Mapuj roszczenia ORCID na pola użytkownika Discourse. Każdy wpis łączy nazwę roszczenia ORCID z numerycznym identyfikatorem pola użytkownika Discourse."
-    orcid_connect_match_by_email: "Użyj adresu e-mail, aby dopasować uwierzytelnienia OpenID Connect do istniejących kont użytkowników Discourse."
-    orcid_connect_use_pkce: "Włącz Proof Key for Code Exchange (PKCE) w celu uwierzytelniania OpenID Connect."
+    orcid_connect_match_by_email: "Użyj adresu e-mail, aby dopasować uwierzytelnienia ORCid Connect do istniejących kont użytkowników Discourse."
+    orcid_connect_use_pkce: "Włącz Proof Key for Code Exchange (PKCE) w celu uwierzytelniania ORCid Connect."
   login:
     omniauth_error:
       orcid_connect_discovery_error: Nie można pobrać konfiguracji od dostawcy tożsamości. Spróbuj ponownie.

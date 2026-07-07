@@ -9,7 +9,7 @@ tr_TR:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
       config:
         login:
           sub_pages:
@@ -17,6 +17,6 @@ tr_TR:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "OpenID Connect ile"
-        message: "OpenID Connect ile Kimlik Doğrulama"
+        name: "ORCid Connect"
+        title: "ORCid Connect ile"
+        message: "ORCid Connect ile Kimlik Doğrulama"

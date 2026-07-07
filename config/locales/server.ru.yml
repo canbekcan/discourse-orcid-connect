@@ -6,20 +6,20 @@
 
 ru:
   site_settings:
-    orcid_connect_discovery_document: "URL-адрес документа обнаружения OpenID Connect. Обычно находится по адресу «https://ваш.домен/.общеизвестный/openid-configuration»"
-    orcid_connect_client_id: "ID клиента OpenID Connect"
-    orcid_connect_client_secret: "Секретный ключ клиента OpenID Connect"
+    orcid_connect_discovery_document: "URL-адрес документа обнаружения ORCid Connect. Обычно находится по адресу «https://ваш.домен/.общеизвестный/openid-configuration»"
+    orcid_connect_client_id: "ID клиента ORCid Connect"
+    orcid_connect_client_secret: "Секретный ключ клиента ORCid Connect"
     orcid_connect_authorize_scope: "Области, отправленные на конечную точку авторизации. Параметр должен включать в себя «openid»."
     orcid_connect_rp_initiated_logout: "Перенаправить пользователя на «end_session_endpoint» после выхода из системы. Эта функция должна поддерживаться поставщиком удостоверений и включаться в документ обнаружения."
     orcid_connect_rp_initiated_logout_redirect: "(необязательно) Адрес «post_logout_redirect_uri», который будет передан в конечную точку выхода. Если он указан, он должен быть зарегистрирован у поставщика удостоверений."
     orcid_connect_token_scope: "Области, отправленные при запросе конечной точки токена. Официальная спецификация этого не требует."
     orcid_connect_error_redirects: "Если «callback error_reason» содержит первый параметр, пользователь будет перенаправлен на URL-адрес во втором параметре"
-    orcid_connect_allow_association_change: "Разрешить пользователям отключать и повторно подключать свои аккаунты Discourse к поставщику OpenID Connect"
+    orcid_connect_allow_association_change: "Разрешить пользователям отключать и повторно подключать свои аккаунты Discourse к поставщику ORCid Connect"
     orcid_connect_verbose_logging: "Записывать подробную информацию об аутентификации orcid-connect в `/logs`. Держите эту функцию отключённой во время обычного использования."
     orcid_connect_authorize_parameters: "Параметры URL-адреса, которые будут включены в перенаправление из /auth/oidc на конечную точку авторизации поставщика удостоверений"
     orcid_connect_claims: "Явным образом определить требования для использования с поставщиками, которые не передают данные обратно, на основе областей. (JSON)"
-    orcid_connect_match_by_email: "Использовать адрес электронной почты для сопоставления аутентификаций OpenID Connect с существующими аккаунтами пользователей Discourse."
-    orcid_connect_use_pkce: "Включить Proof Key for Code Exchange (PKCE) для аутентификации OpenID Connect."
+    orcid_connect_match_by_email: "Использовать адрес электронной почты для сопоставления аутентификаций ORCid Connect с существующими аккаунтами пользователей Discourse."
+    orcid_connect_use_pkce: "Включить Proof Key for Code Exchange (PKCE) для аутентификации ORCid Connect."
   login:
     omniauth_error:
       orcid_connect_discovery_error: Не удаётся получить конфигурацию от поставщика удостоверений. Попробуйте ещё раз.

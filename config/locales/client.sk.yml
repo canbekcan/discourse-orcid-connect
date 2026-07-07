@@ -9,10 +9,10 @@ sk:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "s OpenID Connect"
-        message: "Overovanie pomocou služby OpenID Connect"
+        name: "ORCid Connect"
+        title: "s ORCid Connect"
+        message: "Overovanie pomocou služby ORCid Connect"

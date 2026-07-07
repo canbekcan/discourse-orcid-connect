@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
 # name: discourse-orcid-connect
-# about: Allows users to login to your forum using an OpenID Connect provider as authentication.
+# about: Allows users to login to your forum using an ORCid Connect provider as authentication.
 # version: 1.0
 # authors: Can Bekcan
 # url: https://github.com/canbekcan/discourse-orcid-connect
 
 enabled_site_setting :orcid_connect_enabled
 
-register_svg_icon "id-card"
+register_svg_icon "id-badge"
 
 require_relative "lib/orcid_connect_faraday_formatter"
 require_relative "lib/omniauth_orc_id_connect"

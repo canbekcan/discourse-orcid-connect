@@ -9,10 +9,10 @@ fi:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "OpenID Connectilla"
-        message: "Todennus OpenID Connectilla"
+        name: "ORCid Connect"
+        title: "ORCid Connectilla"
+        message: "Todennus ORCid Connectilla"

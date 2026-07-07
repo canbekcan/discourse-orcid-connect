@@ -8,6 +8,6 @@ sv:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "med OpenID Connect"
-        message: "Autentisering med OpenID Connect"
+        name: "ORCid Connect"
+        title: "med ORCid Connect"
+        message: "Autentisering med ORCid Connect"

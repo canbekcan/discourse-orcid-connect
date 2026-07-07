@@ -9,7 +9,7 @@ vi:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
       config:
         login:
           sub_pages:
@@ -18,5 +18,5 @@ vi:
     login:
       oidc:
         name: "Kết nối OpenID"
-        title: "với OpenID Connect"
-        message: "Đang xác thực bằng OpenID Connect"
+        title: "với ORCid Connect"
+        message: "Đang xác thực bằng ORCid Connect"

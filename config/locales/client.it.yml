@@ -9,10 +9,10 @@ it:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "con OpenID Connect"
-        message: "Autenticazione con OpenID Connect"
+        name: "ORCid Connect"
+        title: "con ORCid Connect"
+        message: "Autenticazione con ORCid Connect"

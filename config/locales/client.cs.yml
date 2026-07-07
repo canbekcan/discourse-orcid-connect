@@ -9,7 +9,7 @@ cs:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
       config:
         login:
           sub_pages:
@@ -17,6 +17,6 @@ cs:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "Přihlásit se přes OpenID Connect"
-        message: "Ověřování pomocí OpenID Connect"
+        name: "ORCid Connect"
+        title: "Přihlásit se přes ORCid Connect"
+        message: "Ověřování pomocí ORCid Connect"

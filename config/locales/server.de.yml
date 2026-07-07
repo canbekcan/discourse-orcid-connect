@@ -21,8 +21,8 @@ de:
     orcid_connect_authorize_parameters: "URL-Parameter, die in der Umleitung von /auth/oidc zum Autorisierungsendpunkt des IDP enthalten sind"
     orcid_connect_claims: "Definiert explizit Ansprüche, die bei Anbietern verwendet werden sollen, die keine Daten basierend auf Bereichen zurückgeben. (JSON)"
     orcid_connect_groups_claim: "Der Name des Claims im ORCID-Token, der die Gruppen des Benutzers als Array von Zeichenfolgen enthält. Lass das Feld leer, um die Gruppensynchronisierung zu deaktivieren."
-    orcid_connect_match_by_email: "Verwende eine E-Mail-Adresse, um OpenID Connect-Authentifizierungen mit bestehenden Discourse-Benutzerkonten abzugleichen."
-    orcid_connect_use_pkce: "Proof Key for Code Exchange (PKCE) für „OpenID Connect“-Authentifizierung aktivieren."
+    orcid_connect_match_by_email: "Verwende eine E-Mail-Adresse, um ORCid Connect-Authentifizierungen mit bestehenden Discourse-Benutzerkonten abzugleichen."
+    orcid_connect_use_pkce: "Proof Key for Code Exchange (PKCE) für „ORCid Connect“-Authentifizierung aktivieren."
   login:
     omniauth_error:
       orcid_connect_discovery_error: Konfiguration kann nicht vom Identitätsanbieter abgerufen werden. Bitte versuche es erneut.

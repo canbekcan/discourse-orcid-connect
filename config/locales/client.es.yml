@@ -9,7 +9,7 @@ es:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "OpenID Connect de Discourse"
+          discourse_orcid_connect: "ORCid Connect de Discourse"
       config:
         login:
           sub_pages:
@@ -17,6 +17,6 @@ es:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "con OpenID Connect"
-        message: "Autenticación con OpenID Connect"
+        name: "ORCid Connect"
+        title: "con ORCid Connect"
+        message: "Autenticación con ORCid Connect"

@@ -12,7 +12,7 @@ export default {
     }
 
     withPluginApi((api) => {
-      api.setAdminPluginIcon(PLUGIN_ID, "id-card");
+      api.setAdminPluginIcon(PLUGIN_ID, "id-badge");
     });
   },
 };

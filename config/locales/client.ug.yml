@@ -14,4 +14,4 @@ ug:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
+        name: "ORCid Connect"

@@ -9,7 +9,7 @@ hu:
     admin:
       site_settings:
         categories:
-          discourse_orcid_connect: "Discourse OpenID Connect"
+          discourse_orcid_connect: "Discourse ORCid Connect"
       config:
         login:
           sub_pages:
@@ -17,6 +17,6 @@ hu:
   js:
     login:
       oidc:
-        name: "OpenID Connect"
-        title: "OpenID Connecttel"
-        message: "Hitelesítés OpenID Connecttel"
+        name: "ORCid Connect"
+        title: "ORCid Connecttel"
+        message: "Hitelesítés ORCid Connecttel"
