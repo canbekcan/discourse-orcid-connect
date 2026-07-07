@@ -1,0 +1,18 @@
+{
+  "extends": "discourse/tsconfig-plugin",
+  "include": [
+    "admin/assets/javascripts/**/*",
+    "assets/javascripts/**/*",
+    "test/javascripts/**/*"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "discourse/plugins/discourse-orcid-connect/*": [
+        "./assets/javascripts/*"
+      ],
+      "discourse/plugins/discourse-orcid-connect/admin/*": [
+        "./admin/assets/javascripts/admin/*"
+      ]
+    }
+  }
+}

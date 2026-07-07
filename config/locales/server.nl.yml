@@ -1,0 +1,28 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+nl:
+  site_settings:
+    orcid_connect_enabled: Schakel OpenID Connect-verificatie in. Pas de gebruikersinterfacetekst <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>hier</a> aan
+    orcid_connect_discovery_document: "URL van OpenID Connect-detectiedocument. Normaal gesproken te vinden op 'https://jouw.domein/.well-known/openid-configuration'"
+    orcid_connect_client_id: "OpenID Connect-client-ID"
+    orcid_connect_client_secret: "OpenID Connect-clientgeheim"
+    orcid_connect_authorize_scope: "De bereiken die naar het autorisatie-eindpunt zijn gestuurd. Dit moet 'openid' bevatten."
+    orcid_connect_rp_initiated_logout: "Leid de gebruiker om naar end_session_endpoint na afmelden. Moet worden ondersteund door je identiteitsprovider en worden opgenomen in het ontdekkingsdocument."
+    orcid_connect_rp_initiated_logout_redirect: "(optioneel) De post_logout_redirect_uri die wordt doorgegeven aan het afmeldingseindpunt. Indien opgegeven, moet deze worden geregistreerd bij de identiteitsprovider."
+    orcid_connect_rp_initiated_logout_include_client_id: "(optioneel) Voeg de client_id (instelling orcid_connect_client_id) toe als queryparameter aan het afmeldingseindpunt."
+    orcid_connect_token_scope: "De bereiken die worden gestuurd bij verzoeken aan het tokeneindpunt. De officiële specificatie vereist dit niet."
+    orcid_connect_error_redirects: "Als de callback error_reason de eerste parameter bevat, wordt de gebruiker naar de URL in de tweede parameter geleid"
+    orcid_connect_allow_association_change: "Gebruikers toestaan hun Discourse-accounts te ontkoppelen en opnieuw te verbinden met de OpenID Connect-provider"
+    orcid_connect_verbose_logging: "Gedetailleerde OpenID Connect-verificatiegegevens loggen in `/logs`. Houd dit uitgeschakeld tijdens normaal gebruik."
+    orcid_connect_authorize_parameters: "URL-parameters die worden opgenomen in de omleiding van /auth/oidc naar het autorisatie-eindpunt van de IDP"
+    orcid_connect_claims: "Definieer expliciet de claims voor gebruik met providers die geen gegevens retourneren op basis van bereiken. (JSON)"
+    orcid_connect_groups_claim: "De naam van de claim in het ORCID-token die de groepen van de gebruiker bevat als een array van tekenreeksen. Laat leeg om groepssynchronisatie uit te schakelen."
+    orcid_connect_match_by_email: "E-mailadres gebruiken om OpenID Connect-verificaties te matchen met bestaande Discourse-gebruikersaccounts."
+    orcid_connect_use_pkce: "Schakel Proof Key for Code Exchange (PKCE) in voor OpenID Connect-verificatie."
+  login:
+    omniauth_error:
+      orcid_connect_discovery_error: Kan configuratie niet ophalen van identiteitsprovider. Probeer het opnieuw.

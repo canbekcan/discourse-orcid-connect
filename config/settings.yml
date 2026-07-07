@@ -1,0 +1,74 @@
+discourse_orcid_connect:
+  orcid_connect_enabled:
+    default: false
+    area: "orcid"
+  orcid_connect_discovery_document:
+    default: ""
+    area: "orcid"
+  orcid_connect_client_id:
+    default: ""
+    area: "orcid"
+  orcid_connect_client_secret:
+    default: ""
+    secret: true
+    area: "orcid"
+  orcid_connect_rp_initiated_logout:
+    default: false
+    area: "orcid"
+  orcid_connect_rp_initiated_logout_redirect:
+    default: ""
+    area: "orcid"
+  orcid_connect_rp_initiated_logout_include_client_id:
+    default: false
+    area: "orcid"
+  orcid_connect_allow_association_change:
+    default: false
+    area: "orcid"
+  orcid_connect_overrides_email:
+    default: false
+    area: "orcid"
+  orcid_connect_authorize_scope:
+    default: "openid"
+    area: "orcid"
+  orcid_connect_verbose_logging:
+    default: false
+    area: "orcid"
+  orcid_connect_token_scope:
+    default: ""
+    area: "orcid"
+  orcid_connect_error_redirects:
+    default: ""
+    type: list
+    list_type: secret
+    area: "orcid"
+  orcid_connect_authorize_parameters:
+    default: ""
+    type: list
+    list_type: compact
+    area: "orcid"
+  orcid_connect_claims:
+    default: ""
+    textarea: true
+    area: "orcid"
+  orcid_connect_match_by_email:
+    default: true
+    area: "orcid"
+  orcid_connect_groups_claim:
+    default: ""
+    area: "orcid"
+  orcid_connect_user_field_mappings:
+    type: objects
+    default: []
+    area: "orcid"
+    schema:
+      name: mapping
+      properties:
+        claim:
+          type: string
+          required: true
+        user_field_id:
+          type: integer
+          required: true
+  orcid_connect_use_pkce:
+    default: false
+    area: "orcid"
