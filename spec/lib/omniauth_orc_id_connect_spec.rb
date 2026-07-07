@@ -2,9 +2,9 @@
 
 require_relative "../../lib/omniauth_orc_id_connect"
 
-describe OmniAuth::Strategies::OrcIDConnect do
+describe OmniAuth::Strategies::OrcidConnect do
   subject(:strategy) do
-    OmniAuth::Strategies::OrcIDConnect.new(
+    OmniAuth::Strategies::OrcidConnect.new(
       app,
       "appid",
       "secret",
@@ -37,13 +37,13 @@ describe OmniAuth::Strategies::OrcIDConnect do
     let(:discovery_document) { nil }
 
     it "throws an error" do
-      expect { strategy.discover! }.to raise_error(::OmniAuth::OrcIDConnect::DiscoveryError)
+      expect { strategy.discover! }.to raise_error(::OmniAuth::OrcidConnect::DiscoveryError)
     end
   end
 
   it "throws error for invalid discovery document" do
     discovery_document.delete("authorization_endpoint")
-    expect { strategy.discover! }.to raise_error(::OmniAuth::OrcIDConnect::DiscoveryError)
+    expect { strategy.discover! }.to raise_error(::OmniAuth::OrcidConnect::DiscoveryError)
   end
 
   it "disables userinfo if not included in discovery document" do

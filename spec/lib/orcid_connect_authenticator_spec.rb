@@ -2,7 +2,7 @@
 
 require_relative "../../lib/omniauth_orc_id_connect"
 
-describe OrcIDConnectAuthenticator do
+describe OrcidConnectAuthenticator do
   let(:authenticator) { described_class.new }
   fab!(:user)
   let(:hash) do

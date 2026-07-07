@@ -24,7 +24,7 @@ register_admin_config_login_route("orcid")
 on(:before_session_destroy) do |data|
   next if !SiteSetting.orcid_connect_rp_initiated_logout
 
-  authenticator = OrcIDConnectAuthenticator.new
+  authenticator = OrcidConnectAuthenticator.new
 
   orcid_record = data[:user]&.user_associated_accounts&.find_by(provider_name: "orcid")
   if !orcid_record
@@ -70,4 +70,4 @@ on(:before_session_destroy) do |data|
   data[:redirect_url] = uri.to_s
 end
 
-auth_provider authenticator: OrcIDConnectAuthenticator.new
+auth_provider authenticator: OrcidConnectAuthenticator.new

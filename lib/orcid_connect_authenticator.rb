@@ -2,7 +2,7 @@
 require "base64"
 require "openssl"
 
-class OrcIDConnectAuthenticator < Auth::ManagedAuthenticator
+class OrcidConnectAuthenticator < Auth::ManagedAuthenticator
   def name
     "orcid"
   end

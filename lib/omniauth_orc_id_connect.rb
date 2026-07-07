@@ -3,13 +3,13 @@
 require "omniauth-oauth2"
 
 module OmniAuth
-  module OrcIDConnect
+  module OrcidConnect
     class DiscoveryError < Error
     end
   end
 
   module Strategies
-    class OrcIDConnect < OmniAuth::Strategies::OAuth2
+    class OrcidConnect< OmniAuth::Strategies::OAuth2
       class NonceVerifyError < StandardError
       end
       class SubVerifyError < StandardError
@@ -39,7 +39,7 @@ module OmniAuth
       def discover!
         discovery_document = options[:discovery_document]
         if discovery_document.nil?
-          raise OmniAuth::OrcIDConnect::DiscoveryError.new("Discovery document is missing")
+          raise OmniAuth::OrcidConnect::DiscoveryError.new("Discovery document is missing")
         end
 
         discovery_params = {
@@ -51,7 +51,7 @@ module OmniAuth
         discovery_params.each do |internal_key, external_key|
           val = discovery_document[external_key]
           if val.nil? || val.empty?
-            raise OmniAuth::OrcIDConnect::DiscoveryError.new(
+            raise OmniAuth::OrcidConnect::DiscoveryError.new(
                     "missing discovery parameter #{external_key}",
                   )
           end
@@ -83,7 +83,7 @@ module OmniAuth
       def request_phase
         begin
           discover! if options[:discovery]
-        rescue OmniAuth::OrcIDConnect::DiscoveryError => e
+        rescue OmniAuth::OrcidConnect::DiscoveryError => e
           return fail!(:orcid_connect_discovery_error, e)
         end
 
@@ -136,7 +136,7 @@ module OmniAuth
           return oauth2_callback_phase if env["omniauth.error"]
 
           oauth2_callback_phase
-        rescue OmniAuth::OrcIDConnect::DiscoveryError => e
+        rescue OmniAuth::OrcidConnect::DiscoveryError => e
           fail!(:orcid_connect_discovery_error, e)
         rescue ::JWT::DecodeError => e
           fail!(:jwt_decode_failed, e)
@@ -249,4 +249,4 @@ module OmniAuth
   end
 end
 
-OmniAuth.config.add_camelization "orcid_connect", "OrcIDConnect"
+OmniAuth.config.add_camelization "orcid_connect", "OrcidConnect"
