@@ -6,7 +6,7 @@
 
 ja:
   site_settings:
-    orcid_connect_enabled: ORCid Connect 認証を有効にする。ユーザーインターフェースのテキストは<a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>こちら</a>でカスタマイズしてください
+    orcid_connect_enabled: ORCid Connect 認証を有効にする。ユーザーインターフェースのテキストは<a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>こちら</a>でカスタマイズしてください
     orcid_connect_discovery_document: "ORCid Connect 検出ドキュメント URL。通常、'https://your.domain/.well-known/openid-configuration' にあります"
     orcid_connect_client_id: "ORCid Connect クライアント ID"
     orcid_connect_client_secret: "ORCid Connect クライアントシークレット"
@@ -17,7 +17,7 @@ ja:
     orcid_connect_error_redirects: "error_reason コールバックに最初のパラメーターが含まれる場合、ユーザーは 2 番目のパラメーターにある URL にリダイレクトされる"
     orcid_connect_allow_association_change: "ユーザーが ORCid Connect プロバイダーから Discourse アカウントを切断して再接続することを許可する"
     orcid_connect_verbose_logging: "詳細な orcid-connect 認証情報を `/logs` に記録する。通常使用の場合は、これを無効にしてください。"
-    orcid_connect_authorize_parameters: "/auth/oidc から IDP の承認エンドポイントへのリダイレクトに含まれる URL パラメーター"
+    orcid_connect_authorize_parameters: "/auth/orcid から IDP の承認エンドポイントへのリダイレクトに含まれる URL パラメーター"
     orcid_connect_claims: "スコープに基づいてデータを戻さないプロバイダーで使用するための要求を明示的に定義する。（JSON）"
     orcid_connect_match_by_email: "メールアドレスを使用して、ORCid Connect 認証を既存の Discourse ユーザーアカウントと照合する。"
     orcid_connect_use_pkce: "ORCid Connect 認証の Proof Key for Code Exchange（PKCE）を有効にする。"

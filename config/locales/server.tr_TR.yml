@@ -6,7 +6,7 @@
 
 tr_TR:
   site_settings:
-    orcid_connect_enabled: ORCid Connect kimlik doğrulamasını etkinleştirin. Kullanıcı arayüzü metnini <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>buradan</a> özelleştirin
+    orcid_connect_enabled: ORCid Connect kimlik doğrulamasını etkinleştirin. Kullanıcı arayüzü metnini <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>buradan</a> özelleştirin
     orcid_connect_discovery_document: "ORCid Connect keşif belgesi URL'si. Normalde \"https://your.domain/.well-known/openid-configuration\" adresinde bulunur"
     orcid_connect_client_id: "ORCid Connect istemci kimliği"
     orcid_connect_client_secret: "ORCid Connect istemci sırrı"
@@ -18,7 +18,7 @@ tr_TR:
     orcid_connect_error_redirects: "Geri arama error_reason ilk parametreyi içeriyorsa kullanıcı ikinci parametredeki URL'ye yönlendirilir"
     orcid_connect_allow_association_change: "Kullanıcıların Discourse hesaplarının bağlantısını ORCid Connect sağlayıcısından kesmelerine ve yeniden bağlamalarına izin verin"
     orcid_connect_verbose_logging: "Ayrıntılı orcid-connect kimlik doğrulama bilgilerini \"/logs\" dosyasına kaydedin. Normal kullanım sırasında bunu devre dışı bırakın."
-    orcid_connect_authorize_parameters: "auth/oidc'den IDP'nin yetkilendirme uç noktasına yönlendirmeye dahil edilecek URL parametreleri"
+    orcid_connect_authorize_parameters: "auth/orcid'den IDP'nin yetkilendirme uç noktasına yönlendirmeye dahil edilecek URL parametreleri"
     orcid_connect_claims: "Kapsamlara dayalı olarak verileri geri iletmeyen sağlayıcılarla kullanım için talepleri açıkça tanımlayın. (JSON)"
     orcid_connect_groups_claim: "ORCID belirtecinde, kullanıcının gruplarını bir dize dizisi olarak içeren iddianın adı. Grup senkronizasyonunu devre dışı bırakmak için bu alanı boş bırakın."
     orcid_connect_match_by_email: "ORCid Connect kimlik doğrulamalarını mevcut Discourse kullanıcı hesaplarıyla eşleştirmek için e-posta adresini kullanın."

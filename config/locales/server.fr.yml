@@ -6,7 +6,7 @@
 
 fr:
   site_settings:
-    orcid_connect_enabled: Activez l'authentification ORCid Connect. Personnalisez le texte de l'interface utilisateur <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>ici</a>
+    orcid_connect_enabled: Activez l'authentification ORCid Connect. Personnalisez le texte de l'interface utilisateur <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>ici</a>
     orcid_connect_discovery_document: "URL du document de découverte ORCid Connect. Normalement situé à l'adresse https://your.domain/.well-known/openid-configuration"
     orcid_connect_client_id: "ID de client ORCid Connect"
     orcid_connect_client_secret: "Secret du client ORCid Connect"
@@ -17,7 +17,7 @@ fr:
     orcid_connect_error_redirects: "Si le rappel error_reason contient le premier paramètre, l'utilisateur sera redirigé vers l'adresse URL reprise dans le deuxième paramètre"
     orcid_connect_allow_association_change: "Autoriser les utilisateurs à déconnecter et à reconnecter leurs comptes Discourse du fournisseur ORCid Connect"
     orcid_connect_verbose_logging: "Consigne les informations d'authentification détaillées d'orcid-connect dans « /logs ». Maintenez cette option désactivée pendant l'utilisation normale."
-    orcid_connect_authorize_parameters: "Paramètres de l'adresse URL qui seront inclus dans la redirection de /auth/oidc vers le point de terminaison d'autorisation de l'IDP"
+    orcid_connect_authorize_parameters: "Paramètres de l'adresse URL qui seront inclus dans la redirection de /auth/orcid vers le point de terminaison d'autorisation de l'IDP"
     orcid_connect_claims: "Définir explicitement les revendications à utiliser avec les fournisseurs qui ne retransmettent pas les données en fonction des autorisations. (JSON)"
     orcid_connect_match_by_email: "Utilisez l'adresse e-mail pour associer les authentifications ORCid Connect aux comptes utilisateur Discourse existants."
     orcid_connect_use_pkce: "Activez la clé de preuve pour l'échange de codes (PKCE) pour l'authentification ORCid Connect."

@@ -6,7 +6,7 @@
 
 he:
   site_settings:
-    orcid_connect_enabled: הפעלת אימות דרך ORCid Connect. ניתן לערוך את טקסט מנשק המשתמש <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>כאן</a>.
+    orcid_connect_enabled: הפעלת אימות דרך ORCid Connect. ניתן לערוך את טקסט מנשק המשתמש <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>כאן</a>.
     orcid_connect_discovery_document: "כתובת מסמך גילוי של ORCid Connect. בדרך כלל ממוקם תחת ‚https://your.domain/.well-known/openid-configuration’"
     orcid_connect_client_id: "מזהה לקוח ORCid Connect"
     orcid_connect_client_secret: "סוד לקוח ORCid Connect"
@@ -17,7 +17,7 @@ he:
     orcid_connect_error_redirects: "אם הקריאה החוזרת error_reason מחזירה את המשתנה הראשון, המשתמש יופנה אל הכתובת שבמשתנה השני"
     orcid_connect_allow_association_change: "לאפשר למשתמשים להתנתק ולהתחבר מחדש לחשבונות ה־Discourse שלהם מספק ה־ORCid Connect שלהם."
     orcid_connect_verbose_logging: "תיעוד פרטי אימות orcid-connect מפורטים אל `‎/logs`. עדיף להשבית במהלך תפעול שגרתי."
-    orcid_connect_authorize_parameters: "משתני הכתובת שיתווספו להפניה מ־‎/auth/oidc לנקודת הקצה לאימות של ספק הזהות"
+    orcid_connect_authorize_parameters: "משתני הכתובת שיתווספו להפניה מ־‎/auth/orcid לנקודת הקצה לאימות של ספק הזהות"
     orcid_connect_claims: "הגדרת הטענות במפורש לשימוש מול ספקים שלא מעבירים נתונים בחזרה על סמך תחומים. (JSON)"
     orcid_connect_match_by_email: "להשתמש בכתובת דוא״ל כדי לתאם את אימותי ORCid Connect לחשבונות משתמש קיימים ב־Discourse."
     orcid_connect_use_pkce: "הפעלת מפתח הוכחה לחילופי קודים (PKCE) עבור אימות ORCid Connect."

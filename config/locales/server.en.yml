@@ -1,6 +1,6 @@
 en:
   site_settings:
-    orcid_connect_enabled: Enable ORCid Connect authentication. Customize user interface text <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>here</a>
+    orcid_connect_enabled: Enable ORCid Connect authentication. Customize user interface text <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>here</a>
     orcid_connect_discovery_document: "ORCid Connect discovery document URL. Normally located at 'https://your.domain/.well-known/openid-configuration'"
     orcid_connect_client_id: "ORCid Connect client ID"
     orcid_connect_client_secret: "ORCid Connect client secret"
@@ -12,7 +12,7 @@ en:
     orcid_connect_error_redirects: "If the callback error_reason contains the first parameter, the user will be redirected to the URL in the second parameter"
     orcid_connect_allow_association_change: "Allow users to disconnect and reconnect their Discourse accounts from the ORCid Connect provider"
     orcid_connect_verbose_logging: "Log detailed orcid-connect authentication information to `/logs`. Keep this disabled during normal use."
-    orcid_connect_authorize_parameters: "URL parameters which will be included in the redirect from /auth/oidc to the IDP's authorize endpoint"
+    orcid_connect_authorize_parameters: "URL parameters which will be included in the redirect from /auth/orcid to the IDP's authorize endpoint"
     orcid_connect_overrides_email: "On every login, override the user's email using the orcid-connect value. Works the same as the {{setting:auth_overrides_email}} setting, but is specific to ORCid Connect logins."
     orcid_connect_claims: "Explicitly define the claims for use with providers that don't pass data back based on scopes. (JSON)"
     orcid_connect_groups_claim: "The name of the claim in the ORCID token that contains the user's groups as an array of strings. Leave blank to disable group syncing."

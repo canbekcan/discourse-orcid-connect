@@ -6,7 +6,7 @@
 
 hu:
   site_settings:
-    orcid_connect_enabled: Engedélyezze az ORCid Connect hitelesítést. A felhasználói felület szövegeit <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>itt</a> szabhatja testre.
+    orcid_connect_enabled: Engedélyezze az ORCid Connect hitelesítést. A felhasználói felület szövegeit <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>itt</a> szabhatja testre.
     orcid_connect_discovery_document: "ORCid Connect felfedezési dokumentum URL-je. Általában a 'https://your.domain/.well-known/openid-configuration' útvonalon található."
     orcid_connect_client_id: "ORCid Connect ügyfélazonosító"
     orcid_connect_client_secret: "ORCid Connect kliens titkos kódja"
@@ -18,7 +18,7 @@ hu:
     orcid_connect_error_redirects: "Ha a visszahívási (callback) hiba oka tartalmazza az első paramétert, a felhasználó a második paraméterben megadott URL-re lesz átirányítva."
     orcid_connect_allow_association_change: "Lehetővé teszi a felhasználók számára, hogy leválasszák, majd újra összekapcsolják Discourse-fiókjukat az ORCid Connect szolgáltatóval."
     orcid_connect_verbose_logging: "Részletes ORCid Connect hitelesítési adatok naplózása a /logs mappába. Normál használat mellett hagyja kikapcsolva."
-    orcid_connect_authorize_parameters: "Azok az URL-paraméterek, amelyek bekerülnek az /auth/oidc útvonalról az IdP autorizációs végpontjára történő átirányításba."
+    orcid_connect_authorize_parameters: "Azok az URL-paraméterek, amelyek bekerülnek az /auth/orcid útvonalról az IdP autorizációs végpontjára történő átirányításba."
     orcid_connect_claims: "Explicit módon határozza meg az igényeket azon szolgáltatókhoz, amelyek nem küldenek vissza adatokat a hatókörök alapján. (JSON)"
     orcid_connect_match_by_email: "E-mail-cím használata az ORCid Connect hitelesítések és a meglévő Discourse felhasználói fiókok összekapcsolásához."
     orcid_connect_use_pkce: "A PKCE (Proof Key for Code Exchange) engedélyezése az ORCid Connect hitelesítéshez."

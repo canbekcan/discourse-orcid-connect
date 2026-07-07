@@ -16,7 +16,7 @@ sv:
     orcid_connect_error_redirects: "Om callback error_reason innehåller den första parametern kommer användaren att omdirigeras till URL:en i den andra parametern"
     orcid_connect_allow_association_change: "Tillåt att användare kopplar från och återansluter sina Discourse-konton hos ORCid Connect-leverantören"
     orcid_connect_verbose_logging: "Logga detaljerad orcid-connect-autentiseringsinformation i `/logs`. Låt detta förbli inaktiverat under normal användning."
-    orcid_connect_authorize_parameters: "URL-parametrar som kommer att omfattas i omdirigeringen från /auth/oidc till IDP:ns auktoriseringsslutpunkt"
+    orcid_connect_authorize_parameters: "URL-parametrar som kommer att omfattas i omdirigeringen från /auth/orcid till IDP:ns auktoriseringsslutpunkt"
     orcid_connect_claims: "Definiera uttryckligen kraven för användning av leverantörer som inte skickar tillbaka data baserat på omfång. (JSON)"
   login:
     omniauth_error:

@@ -16,7 +16,7 @@ ru:
     orcid_connect_error_redirects: "Если «callback error_reason» содержит первый параметр, пользователь будет перенаправлен на URL-адрес во втором параметре"
     orcid_connect_allow_association_change: "Разрешить пользователям отключать и повторно подключать свои аккаунты Discourse к поставщику ORCid Connect"
     orcid_connect_verbose_logging: "Записывать подробную информацию об аутентификации orcid-connect в `/logs`. Держите эту функцию отключённой во время обычного использования."
-    orcid_connect_authorize_parameters: "Параметры URL-адреса, которые будут включены в перенаправление из /auth/oidc на конечную точку авторизации поставщика удостоверений"
+    orcid_connect_authorize_parameters: "Параметры URL-адреса, которые будут включены в перенаправление из /auth/orcid на конечную точку авторизации поставщика удостоверений"
     orcid_connect_claims: "Явным образом определить требования для использования с поставщиками, которые не передают данные обратно, на основе областей. (JSON)"
     orcid_connect_match_by_email: "Использовать адрес электронной почты для сопоставления аутентификаций ORCid Connect с существующими аккаунтами пользователей Discourse."
     orcid_connect_use_pkce: "Включить Proof Key for Code Exchange (PKCE) для аутентификации ORCid Connect."

@@ -6,7 +6,7 @@
 
 fi:
   site_settings:
-    orcid_connect_enabled: Ota ORCid Connect -todennus käyttöön. Mukauta käyttöliittymän tekstiä <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>täällä</a>
+    orcid_connect_enabled: Ota ORCid Connect -todennus käyttöön. Mukauta käyttöliittymän tekstiä <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>täällä</a>
     orcid_connect_discovery_document: "ORCid Connectin discovery-asiakirjan URL-osoite. Sijaitsee yleensä osoitteessa https://verkkotunnus/.well-known/openid-configuration"
     orcid_connect_client_id: "ORCid Connectin asiakastunnus"
     orcid_connect_client_secret: "ORCid Connectin asiakkaan salatunnus"

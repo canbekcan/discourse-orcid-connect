@@ -6,7 +6,7 @@
 
 es:
   site_settings:
-    orcid_connect_enabled: Activa la autenticación de ORCid Connect. Personaliza el texto de la interfaz de usuario <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>aquí</a>.
+    orcid_connect_enabled: Activa la autenticación de ORCid Connect. Personaliza el texto de la interfaz de usuario <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>aquí</a>.
     orcid_connect_discovery_document: "URL del documento de descubrimiento de ORCid Connect. Normalmente ubicado en 'https://your.domain/.well-known/openid-configuration'"
     orcid_connect_client_id: "ID de cliente de ORCid Connect"
     orcid_connect_client_secret: "Secreto de cliente de ORCid Connect"
@@ -18,7 +18,7 @@ es:
     orcid_connect_error_redirects: "Si el callback error_reason contiene el primer parámetro, el usuario será redirigido a la URL en el segundo parámetro"
     orcid_connect_allow_association_change: "Permitir a los usuarios desconectar y volver a conectar sus cuentas de Discourse desde el proveedor ORCid Connect"
     orcid_connect_verbose_logging: "Registrar la información detallada de la autenticación de orcid-connect en `/logs`. Mantén esto desactivado durante el uso normal."
-    orcid_connect_authorize_parameters: "Parámetros de URL que se incluirán en la redirección desde /auth/oidc al terminal autorizado del IDP"
+    orcid_connect_authorize_parameters: "Parámetros de URL que se incluirán en la redirección desde /auth/orcid al terminal autorizado del IDP"
     orcid_connect_claims: "Definir explícitamente las reclamaciones de uso con proveedores que no pasen los datos basados en ámbitos. (JSON)"
     orcid_connect_match_by_email: "Utiliza la dirección de correo electrónico para asociar las autenticaciones de ORCid Connect con las cuentas de usuario de Discourse existentes."
     orcid_connect_use_pkce: "Activar la Clave de Prueba para el Intercambio de Códigos (PKCE) para la autenticación de ORCid Connect."

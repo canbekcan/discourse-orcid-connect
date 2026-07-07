@@ -28,13 +28,13 @@ on(:before_session_destroy) do |data|
 
   orcid_record = data[:user]&.user_associated_accounts&.find_by(provider_name: "orcid")
   if !orcid_record
-    authenticator.orcid_log "Logout: No oidc user_associated_account record for user"
+    authenticator.orcid_log "Logout: No orcid user_associated_account record for user"
     next
   end
 
   token = orcid_record.extra["id_token"]
   if !token
-    authenticator.orcid_log "Logout: No oidc id_token in user_associated_account record"
+    authenticator.orcid_log "Logout: No orcid id_token in user_associated_account record"
     next
   end
 

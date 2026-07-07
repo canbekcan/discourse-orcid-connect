@@ -6,7 +6,7 @@
 
 uk:
   site_settings:
-    orcid_connect_enabled: Увімкнути автентифікацію ORCid Connect. Налаштувати текст інтерфейсу користувача <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>тут</a>
+    orcid_connect_enabled: Увімкнути автентифікацію ORCid Connect. Налаштувати текст інтерфейсу користувача <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>тут</a>
     orcid_connect_discovery_document: "URL-адреса документа для виявлення ORCid Connect. Зазвичай розташована за адресою «https://your.domain/.well-known/openid-configuration»."
     orcid_connect_client_id: "Ідентифікатор клієнта ORCid Connect"
     orcid_connect_client_secret: "Секрет клієнта ORCid Connect"
@@ -18,7 +18,7 @@ uk:
     orcid_connect_error_redirects: "Якщо error_reason містить перший параметр, користувач буде перенаправлений на URL-адресу в другому параметрі"
     orcid_connect_allow_association_change: "Дозволити користувачам відключати та повторно підключати свої облікові записи Discourse від постачальника ORCid Connect"
     orcid_connect_verbose_logging: "Записувати детальну інформацію про автентифікацію orcid-connect до `/logs`. Під час звичайного використання тримайте цю функцію вимкненою."
-    orcid_connect_authorize_parameters: "Параметри URL, які будуть включені в перенаправлення з /auth/oidc на кінцеву точку авторизації IDP"
+    orcid_connect_authorize_parameters: "Параметри URL, які будуть включені в перенаправлення з /auth/orcid на кінцеву точку авторизації IDP"
     orcid_connect_overrides_email: "Під час кожного входу замінювати електронну адресу користувача значенням orcid-connect. Працює так само, як і налаштування {{setting:auth_overrides_email}} , але стосується лише входу в систему через ORCid Connect."
     orcid_connect_claims: "Явно визначте вимоги для використання з провайдерами, які не передають дані назад на основі діапазонів. (JSON)"
     orcid_connect_groups_claim: "Назва вимоги в токені ORCID, що містить групи користувача у вигляді масиву рядків. Залиште пустим, щоб вимкнути синхронізацію груп."

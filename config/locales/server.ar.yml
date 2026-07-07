@@ -6,7 +6,7 @@
 
 ar:
   site_settings:
-    orcid_connect_enabled: تفعيل مصادقة ORCid Connect. يمكنك تخصيص نص واجهة المستخدم من <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>هنا</a>
+    orcid_connect_enabled: تفعيل مصادقة ORCid Connect. يمكنك تخصيص نص واجهة المستخدم من <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>هنا</a>
     orcid_connect_discovery_document: "عنوان URL لمستند استكشاف ORCid Connect. موجود عادةً على \"https://your.domain/.well-known/openid-configuration\""
     orcid_connect_client_id: "معرِّف العميل لـ ORCid Connect"
     orcid_connect_client_secret: "سر عميل ORCid Connect"
@@ -18,7 +18,7 @@ ar:
     orcid_connect_error_redirects: "إذا كان رد الاتصال error_reason يحتوي على المعلمة الأولى، فستتم إعادة توجيه المستخدم إلى عنوان URL في المعلمة الثانية"
     orcid_connect_allow_association_change: "السماح للمستخدمين بإلغاء ربط حسابات Discourse وإعادة ربطها من مقدِّم خدمة ORCid Connect"
     orcid_connect_verbose_logging: "تسجيل معلومات مصادقة orcid-connect المفصَّلة في `/logs`. اترك هذا الإعداد متوقفًا خلال الاستخدام العادي."
-    orcid_connect_authorize_parameters: "معلمات عنوان URL التي تضمينها في إعادة التوجيه من /auth/oidc إلى نقطة نهاية مصادقة IDP"
+    orcid_connect_authorize_parameters: "معلمات عنوان URL التي تضمينها في إعادة التوجيه من /auth/orcid إلى نقطة نهاية مصادقة IDP"
     orcid_connect_claims: "تحديد المطالبات بشكلٍ صريح، والتي سيتم استخدامها مع مقدِّمي الخدمة الذي لا يعيدون تمرير البيانات حسب النطاقات (JSON)"
     orcid_connect_groups_claim: "اسم الحقل (claim) في رمز ORCID الذي يحتوي على مجموعات المستخدمين كمصفوفة من السلاسل النصية. اتركه فارغًا لتعطيل مزامنة المجموعات."
     orcid_connect_match_by_email: "استخدم عنوان البريد الإلكتروني لمطابقة مصادقات ORCid Connect مع حسابات مستخدمي Discourse الموجودة."

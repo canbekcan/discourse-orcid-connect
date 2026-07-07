@@ -6,7 +6,7 @@
 
 sk:
   site_settings:
-    orcid_connect_enabled: Povolenie overovania pomocou služby ORCid Connect. Prispôsobenie textu používateľského rozhrania <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>tu</a>
+    orcid_connect_enabled: Povolenie overovania pomocou služby ORCid Connect. Prispôsobenie textu používateľského rozhrania <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>tu</a>
     orcid_connect_discovery_document: "Adresa URL dokumentu zisťovania ORCid Connect. Zvyčajne sa nachádza na adrese \"https://your.domain/.well-known/openid-configuration\"."
     orcid_connect_client_id: "ID klienta ORCid Connect"
     orcid_connect_client_secret: "Tajný kód klienta ORCid Connect"
@@ -17,7 +17,7 @@ sk:
     orcid_connect_error_redirects: "Ak spätné volanie error_reason obsahuje prvý parameter, používateľ bude presmerovaný na adresu URL v druhom parametri"
     orcid_connect_allow_association_change: "Umožniť používateľom odpojiť a znovu pripojiť svoje účty Discourse od poskytovateľa ORCid Connect"
     orcid_connect_verbose_logging: "Zaznamenávanie podrobných informácií o overovaní orcid-connect do `/logs`. Počas bežného používania nechajte túto funkciu vypnutú."
-    orcid_connect_authorize_parameters: "Parametre URL, ktoré budú zahrnuté v presmerovaní z /auth/oidc na koncový bod autorizácie IDP"
+    orcid_connect_authorize_parameters: "Parametre URL, ktoré budú zahrnuté v presmerovaní z /auth/orcid na koncový bod autorizácie IDP"
     orcid_connect_claims: "Explicitne definujte nároky na použitie so zriaďovateľmi, ktorí neodovzdávajú údaje na základe rozsahov. (JSON)"
     orcid_connect_match_by_email: "Použite e-mailovú adresu na priradenie overovania ORCid Connect k existujúcim používateľským kontám Discourse."
     orcid_connect_use_pkce: "Povolenie funkcie Proof Key for Code Exchange (PKCE) pre overovanie ORCid Connect."

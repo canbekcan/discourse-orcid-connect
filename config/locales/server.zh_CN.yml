@@ -6,7 +6,7 @@
 
 zh_CN:
   site_settings:
-    orcid_connect_enabled: 启用 ORCid Connect 身份验证。在<a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>此处</a>自定义用户界面文本
+    orcid_connect_enabled: 启用 ORCid Connect 身份验证。在<a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>此处</a>自定义用户界面文本
     orcid_connect_discovery_document: "ORCid Connect 发现文档 URL。通常位于 'https://your.domain/.well-known/openid-configuration' 下"
     orcid_connect_client_id: "ORCid Connect 客户端 ID"
     orcid_connect_client_secret: "ORCid Connect 客户端密钥"
@@ -18,7 +18,7 @@ zh_CN:
     orcid_connect_error_redirects: "如果回调 error_reason 包含第一个参数，用户将被重定向到第二个参数中的 URL"
     orcid_connect_allow_association_change: "允许用户从 ORCid Connect 提供商断开并重新连接其 Discourse 帐户"
     orcid_connect_verbose_logging: "将详细的 orcid-connect 身份验证信息记录到 `/logs`。常规使用期间应保持禁用。"
-    orcid_connect_authorize_parameters: "从 /auth/oidc 到 IDP 授权端点的重定向中将包含的 URL 参数"
+    orcid_connect_authorize_parameters: "从 /auth/orcid 到 IDP 授权端点的重定向中将包含的 URL 参数"
     orcid_connect_overrides_email: "每次登录时，使用 orcid-connect 值覆盖用户的电子邮件地址。其作用与 {{setting:auth_overrides_email}} 设置相同，但专门用于 ORCid Connect 登录。"
     orcid_connect_claims: "明确定义声明以用于不基于范围传回数据的提供商。(JSON)"
     orcid_connect_groups_claim: "ORCID 令牌中以字符串数组形式包含用户群组信息的声明名称。留空则禁用群组同步。"

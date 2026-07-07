@@ -6,7 +6,7 @@
 
 pl_PL:
   site_settings:
-    orcid_connect_enabled: Włącz uwierzytelnianie ORCid Connect. Dostosuj tekst interfejsu użytkownika <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>tutaj</a>
+    orcid_connect_enabled: Włącz uwierzytelnianie ORCid Connect. Dostosuj tekst interfejsu użytkownika <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>tutaj</a>
     orcid_connect_discovery_document: "Adres URL dokumentu odkrywczego ORCid Connect. Zwykle znajduje się pod adresem: https://twoja.domena/.well-known/openid-configuration"
     orcid_connect_client_id: "Identyfikator klienta ORCid Connect"
     orcid_connect_client_secret: "Klucz tajny klienta ORCid Connect"
@@ -18,7 +18,7 @@ pl_PL:
     orcid_connect_error_redirects: "Jeżeli wywołanie zwrotne error_reason zawiera pierwszy parametr, użytkownik zostanie przekierowany do adresu URL podanego w drugim parametrze"
     orcid_connect_allow_association_change: "Zezwalaj użytkownikom na odłączanie i ponowne łączenie swoich kont Discourse z dostawcą ORCid Connect"
     orcid_connect_verbose_logging: "Rejestruj szczegółowe informacje o uwierzytelnianiu OpenID-Connect w `/logs`. Wyłącz tę opcję podczas normalnego użytkowania."
-    orcid_connect_authorize_parameters: "Parametry adresu URL, które zostaną uwzględnione w przekierowaniu z /auth/oidc do punktu końcowego autoryzacji dostawcy tożsamości"
+    orcid_connect_authorize_parameters: "Parametry adresu URL, które zostaną uwzględnione w przekierowaniu z /auth/orcid do punktu końcowego autoryzacji dostawcy tożsamości"
     orcid_connect_overrides_email: "Przy każdym logowaniu zastąp adres e-mail użytkownika wartością orcid-connect. Działa tak samo jak ustawienie {{setting:auth_overrides_email}} , ale jest specyficzne dla logowań ORCid Connect."
     orcid_connect_claims: "Jasno zdefiniuj zgłoszenia do wykorzystania z dostawcami, którzy nie przekazują danych z powrotem na podstawie zakresów. (JSON)"
     orcid_connect_groups_claim: "Nazwa roszczenia w tokenie ORCID, które zawiera grupy użytkownika jako tablicę ciągów znaków. Pozostaw puste, aby wyłączyć synchronizację grup."

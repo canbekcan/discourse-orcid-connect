@@ -9,7 +9,7 @@ describe "Admin Config Login and Authentication ORCID tab" do
 
   before { sign_in(current_user) }
 
-  it "shows the login and authentication tabs and allows navigating to the oidc tab" do
+  it "shows the login and authentication tabs and allows navigating to the orcid tab" do
     admin_login_page.visit
 
     admin_login_page.click_tab("discourseconnect")
@@ -25,6 +25,6 @@ describe "Admin Config Login and Authentication ORCID tab" do
     search_modal.search("orcid")
     search_modal.find_result("page", 0).click
 
-    expect(page).to have_current_path("/admin/config/login-and-authentication/oidc")
+    expect(page).to have_current_path("/admin/config/login-and-authentication/orcid")
   end
 end

@@ -6,4 +6,4 @@
 
 vi:
   site_settings:
-    orcid_connect_enabled: Bật xác thực ORCid Connect. Tùy chỉnh văn bản giao diện người dùng <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>tại đây</a>
+    orcid_connect_enabled: Bật xác thực ORCid Connect. Tùy chỉnh văn bản giao diện người dùng <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>tại đây</a>

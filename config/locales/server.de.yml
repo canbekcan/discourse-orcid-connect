@@ -6,7 +6,7 @@
 
 de:
   site_settings:
-    orcid_connect_enabled: Aktiviere die OpenID-Connect-Authentifizierung. Passe den Text der Benutzeroberfläche <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>hier</a> an
+    orcid_connect_enabled: Aktiviere die OpenID-Connect-Authentifizierung. Passe den Text der Benutzeroberfläche <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>hier</a> an
     orcid_connect_discovery_document: "URL des OpenID-Connect-Discovery-Dokuments. Normalerweise zu finden unter „https://your.domain/.well-known/openid-configuration“"
     orcid_connect_client_id: "OpenID-Connect-Client-ID"
     orcid_connect_client_secret: "OpenID-Connect-Client-Geheimnis"
@@ -18,7 +18,7 @@ de:
     orcid_connect_error_redirects: "Wenn der Callback error_reason den ersten Parameter enthält, wird der Benutzer zu der URL im zweiten Parameter umgeleitet"
     orcid_connect_allow_association_change: "Erlaube es Benutzern, ihre Discourse-Konten vom OpenID-Connect-Anbieter zu trennen und wieder mit diesem zu verbinden"
     orcid_connect_verbose_logging: "Protokolliere detaillierte orcid-connect-Authentifizierungsinformationen in `/logs`. Bei normalem Gebrauch deaktiviert lassen."
-    orcid_connect_authorize_parameters: "URL-Parameter, die in der Umleitung von /auth/oidc zum Autorisierungsendpunkt des IDP enthalten sind"
+    orcid_connect_authorize_parameters: "URL-Parameter, die in der Umleitung von /auth/orcid zum Autorisierungsendpunkt des IDP enthalten sind"
     orcid_connect_claims: "Definiert explizit Ansprüche, die bei Anbietern verwendet werden sollen, die keine Daten basierend auf Bereichen zurückgeben. (JSON)"
     orcid_connect_groups_claim: "Der Name des Claims im ORCID-Token, der die Gruppen des Benutzers als Array von Zeichenfolgen enthält. Lass das Feld leer, um die Gruppensynchronisierung zu deaktivieren."
     orcid_connect_match_by_email: "Verwende eine E-Mail-Adresse, um ORCid Connect-Authentifizierungen mit bestehenden Discourse-Benutzerkonten abzugleichen."

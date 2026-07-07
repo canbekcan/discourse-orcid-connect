@@ -134,7 +134,7 @@ class OrcidConnectAuthenticator < Auth::ManagedAuthenticator
 
   def register_middleware(omniauth)
     omniauth.provider :orcid_connect,
-                      name: :oidc,
+                      name: :orcid,
                       error_handler:
                         lambda { |error, message|
                           handlers = SiteSetting.orcid_connect_error_redirects.split("\n")

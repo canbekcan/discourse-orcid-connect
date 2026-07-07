@@ -6,7 +6,7 @@
 
 nl:
   site_settings:
-    orcid_connect_enabled: Schakel ORCid Connect-verificatie in. Pas de gebruikersinterfacetekst <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>hier</a> aan
+    orcid_connect_enabled: Schakel ORCid Connect-verificatie in. Pas de gebruikersinterfacetekst <a href='%{base_path}/admin/customize/site_texts?q=js.login.orcid'>hier</a> aan
     orcid_connect_discovery_document: "URL van ORCid Connect-detectiedocument. Normaal gesproken te vinden op 'https://jouw.domein/.well-known/openid-configuration'"
     orcid_connect_client_id: "ORCid Connect-client-ID"
     orcid_connect_client_secret: "ORCid Connect-clientgeheim"
@@ -18,7 +18,7 @@ nl:
     orcid_connect_error_redirects: "Als de callback error_reason de eerste parameter bevat, wordt de gebruiker naar de URL in de tweede parameter geleid"
     orcid_connect_allow_association_change: "Gebruikers toestaan hun Discourse-accounts te ontkoppelen en opnieuw te verbinden met de ORCid Connect-provider"
     orcid_connect_verbose_logging: "Gedetailleerde ORCid Connect-verificatiegegevens loggen in `/logs`. Houd dit uitgeschakeld tijdens normaal gebruik."
-    orcid_connect_authorize_parameters: "URL-parameters die worden opgenomen in de omleiding van /auth/oidc naar het autorisatie-eindpunt van de IDP"
+    orcid_connect_authorize_parameters: "URL-parameters die worden opgenomen in de omleiding van /auth/orcid naar het autorisatie-eindpunt van de IDP"
     orcid_connect_claims: "Definieer expliciet de claims voor gebruik met providers die geen gegevens retourneren op basis van bereiken. (JSON)"
     orcid_connect_groups_claim: "De naam van de claim in het ORCID-token die de groepen van de gebruiker bevat als een array van tekenreeksen. Laat leeg om groepssynchronisatie uit te schakelen."
     orcid_connect_match_by_email: "E-mailadres gebruiken om ORCid Connect-verificaties te matchen met bestaande Discourse-gebruikersaccounts."

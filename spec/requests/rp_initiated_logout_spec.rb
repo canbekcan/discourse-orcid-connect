@@ -24,14 +24,14 @@ describe "ORCID RP-Initiated Logout" do
 
   after { Discourse.cache.delete("orcid-connect-discovery-#{document_url}") }
 
-  it "does nothing for a user with no oidc record" do
+  it "does nothing for a user with no orcid record" do
     sign_in(user)
     delete "/session/#{user.username}", xhr: true
     expect(response.status).to eq(200)
     expect(response.parsed_body["redirect_url"]).to eq("/")
   end
 
-  it "does nothing for a user with no token in their oidc record" do
+  it "does nothing for a user with no token in their orcid record" do
     sign_in(user)
     UserAssociatedAccount.create!(provider_name: "orcid", user: user, provider_uid: "myuid")
     delete "/session/#{user.username}", xhr: true
@@ -47,7 +47,7 @@ describe "ORCID RP-Initiated Logout" do
         user: user,
         provider_uid: "myuid",
         extra: {
-          id_token: "myoidctoken",
+          id_token: "myorcidtoken",
         },
       )
     end
@@ -56,7 +56,7 @@ describe "ORCID RP-Initiated Logout" do
       delete "/session/#{user.username}", xhr: true
       expect(response.status).to eq(200)
       expect(response.parsed_body["redirect_url"]).to eq(
-        "https://id.example.com/endsession?id_token_hint=myoidctoken",
+        "https://id.example.com/endsession?id_token_hint=myorcidtoken",
       )
     end
 
@@ -66,7 +66,7 @@ describe "ORCID RP-Initiated Logout" do
       delete "/session/#{user.username}", xhr: true
       expect(response.status).to eq(200)
       expect(response.parsed_body["redirect_url"]).to eq(
-        "https://id.example.com/endsession?param=true&id_token_hint=myoidctoken",
+        "https://id.example.com/endsession?param=true&id_token_hint=myorcidtoken",
       )
     end
 
@@ -75,7 +75,7 @@ describe "ORCID RP-Initiated Logout" do
       delete "/session/#{user.username}", xhr: true
       expect(response.status).to eq(200)
       expect(response.parsed_body["redirect_url"]).to eq(
-        "https://id.example.com/endsession?id_token_hint=myoidctoken&post_logout_redirect_uri=https%3A%2F%2Fexample.com",
+        "https://id.example.com/endsession?id_token_hint=myorcidtoken&post_logout_redirect_uri=https%3A%2F%2Fexample.com",
       )
     end
 
@@ -119,7 +119,7 @@ describe "ORCID RP-Initiated Logout" do
         delete "/session/#{user.username}", xhr: true
         expect(response.status).to eq(200)
         expect(response.parsed_body["redirect_url"]).to eq(
-          "https://id.example.com/endsession?id_token_hint=myoidctoken&client_id=test-client-id",
+          "https://id.example.com/endsession?id_token_hint=myorcidtoken&client_id=test-client-id",
         )
       end
     end
