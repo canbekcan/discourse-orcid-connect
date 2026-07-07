@@ -7,7 +7,7 @@
 sv:
   js:
     login:
-      oidc:
+      orcid:
         name: "ORCid Connect"
         title: "med ORCid Connect"
         message: "Autentisering med ORCid Connect"

@@ -12,7 +12,7 @@ sk:
           discourse_orcid_connect: "Discourse ORCid Connect"
   js:
     login:
-      oidc:
+      orcid:
         name: "ORCid Connect"
         title: "s ORCid Connect"
         message: "Overovanie pomocou služby ORCid Connect"

@@ -13,10 +13,10 @@ hu:
       config:
         login:
           sub_pages:
-            oidc: "ORCID"
+            orcid: "ORCID"
   js:
     login:
-      oidc:
+      orcid:
         name: "ORCid Connect"
         title: "ORCid Connecttel"
         message: "Hitelesítés ORCid Connecttel"

@@ -17,7 +17,7 @@ fi:
     orcid_connect_error_redirects: "Jos vastakutsun error_reason sisältää ensimmäisen parametrin, käyttäjä ohjataan toisen parametrin URL-osoitteeseen"
     orcid_connect_allow_association_change: "Salli käyttäjien katkaista Discourse-tilinsä yhteys ORCid Connect -palveluntarjoajaan ja yhdistää se uudelleen"
     orcid_connect_verbose_logging: "Kirjaa yksityiskohtaiset orcid-connect-todennustiedot /logs-polkuun. Älä pidä tätä käytössä normaalin käytön aikana."
-    orcid_connect_authorize_parameters: "URL-parametrit, jotka sisällytetään uudelleenohjaukseen /auth/oidc:stä IDP:n valtuutuspäätepisteeseen"
+    orcid_connect_authorize_parameters: "URL-parametrit, jotka sisällytetään uudelleenohjaukseen /auth/orcid:stä IDP:n valtuutuspäätepisteeseen"
     orcid_connect_claims: "Määritä käytettävät vaatimukset palveluntarjoajilla, jotka eivät lähetä tietoja takaisin alueiden perusteella. (JSON)"
     orcid_connect_match_by_email: "Yhdistä ORCid Connect -todennukset olemassa oleviin Discourse-tileihin sähköpostiosoitteiden perusteella."
     orcid_connect_use_pkce: "Ota käyttöön Proof Key for Code Exchange (PKCE) ORCid Connect -todennuksessa."

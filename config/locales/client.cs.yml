@@ -13,10 +13,10 @@ cs:
       config:
         login:
           sub_pages:
-            oidc: "ORCID"
+            orcid: "ORCID"
   js:
     login:
-      oidc:
+      orcid:
         name: "ORCid Connect"
         title: "Přihlásit se přes ORCid Connect"
         message: "Ověřování pomocí ORCid Connect"

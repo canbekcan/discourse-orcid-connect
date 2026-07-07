@@ -13,10 +13,10 @@ vi:
       config:
         login:
           sub_pages:
-            oidc: "ORCID"
+            orcid: "ORCID"
   js:
     login:
-      oidc:
+      orcid:
         name: "Kết nối OpenID"
         title: "với ORCid Connect"
         message: "Đang xác thực bằng ORCid Connect"

@@ -7,11 +7,11 @@ en:
       config:
         login:
           sub_pages:
-            oidc: "ORCID"
+            orcid: "ORCID"
 
   js:
     login:
-      oidc:
+      orcid:
         name: "ORCid Connect"
         title: "with ORCid Connect"
         message: "Authenticating with ORCid Connect"

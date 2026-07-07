@@ -12,7 +12,7 @@ ru:
           discourse_orcid_connect: "ORCid Connect для Discourse"
   js:
     login:
-      oidc:
+      orcid:
         name: "ORCid Connect"
         title: "через ORCid Connect"
         message: "Аутентификация через ORCid Connect"
